@@ -15,11 +15,16 @@
   , "passport-facebook": "*"
   , "compound-passport": "*"
   , "jugglingdb-mongodb": "*"
+  , "co-assets-compiler": "*"
   },
   "devDependencies":
-  { "nodeunit":         "*"
-  , "sinon":            "*"
-  , "semicov":          "*"
+  { "nodeunit": "*"
+  , "sinon": "*"
+  , "supertest": ">= 0"
+  , "mocha": ">= 0"
+  , "should": ">= 0"
+  , "semicov": "*"
+  , "co-generators": "*"
   }
 , "scripts":
   { "test": "nodeunit test/*/*"
